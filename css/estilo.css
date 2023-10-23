@@ -1,0 +1,157 @@
+@font-face{
+    font-family: Learning;
+    src: url(../fonts/LearningCurve.ttf);
+}
+
+@font-face{
+    font-family: Germanica;
+    src: url(../fonts/Plain\ Germanica.ttf);
+}
+
+@font-face{
+    font-family: Augustus;
+    src: url(../fonts/AUGUSTUS.TTF);
+}
+
+/*uno---------------------------------------------*/
+
+*{margin: 0; padding: 0;}
+
+html{background: #000;}
+
+body{
+    width: 750px; height: 1000px;
+    margin: auto; background: #ffc0cb;
+    font-family: Germanica;
+    font-size: 20px;
+}
+
+section#banner{
+    width: 250px;
+    height: 250px;
+    background: rgb(128, 0, 58);
+    float: left;
+}
+
+section#logo{
+    width: 250px;
+    height: 250px;
+    background: rgb(225, 56, 132);
+    float: left;
+}
+
+section#login{
+    width: 250px;
+    background: rgb(255, 0, 115);
+    height: 250px;
+    float: right;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+#uno{
+    position: absolute;
+    top:20px; left: 5%;
+}
+
+#dos{
+    position: absolute;
+    top:35px;
+}
+
+#tres{
+    position: absolute;
+    top:20px; left: 5%;
+}
+
+/*dos---------------------------------------------*/
+
+nav{
+    width: 750px;
+    height: 250px;
+    background: rgb(41, 2, 70);
+    color: orange;
+    font-family: Augustus;
+    font-size: 20px;
+    /*box-shadow: 10px 10px 5px #f50303;*/
+}
+
+section#inicio{
+    width: 250px; height: 250px;
+    background: rgb(78, 3, 71);
+    float: left;
+}
+
+section#producto{
+    width: 250px; height: 250px;
+    background: rgb(170, 3, 156);
+    float: left;
+}
+
+section#contacto{
+    width: 250px; height: 250px;
+    background: rgb(89, 9, 61);
+    float: left;
+}
+
+/*dos---------------------------------------------*/
+
+main{
+    width: 750px;
+    height: 250px;
+    font-size: 20px;
+    color: azure;
+    font-family: Learning;
+    /*box-shadow: 10px 10px 10px gold*/
+}
+
+
+aside#hoy{
+    width: 250px; height: 250px;
+    background: rgb(201, 53, 53);
+    float: left;
+}
+
+article#novedades{
+    width: 250px; height: 250px;
+    background: rgb(92, 4, 4);
+    float: left;
+}
+
+aside#internacional{
+    width: 250px; height: 250px;
+    background: rgb(252, 4, 4);
+    float: right;
+}
+
+/*cuatro---------------------------------------------*/
+
+footer{
+    width: 750px;
+    height: 250px;
+    font-family: Germanica;
+    font-size: 20px;
+    color: azure;
+}
+
+
+aside#creditos{
+    width: 250px; height: 250px;
+    background: #602e36;
+    float: left;
+}
+
+article#lugar{
+    width: 250px; height: 250px;
+    background: #38161c;
+    float: left;
+}
+
+aside#correo{
+    width: 250px; height: 250px;
+    background: #e98e9d;
+    float: right;
+}
